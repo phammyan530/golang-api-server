@@ -4,8 +4,8 @@
 #### This app is a demo of using: 
 
 - Python scraping website into MySQL server: https://github.com/phammyan530/python-scraping-website-into-mysql
-- Golang powered backend: REST API application
 - PHP powered frontend, a Top 250 Movies website: https://github.com/phammyan530/codeigniter-3-movie-blog
+- Golang powered backend: REST API application:
 
 ### REST based microservices API development in Golang
 This app is a demo of using a Golang powered backend:
@@ -15,9 +15,11 @@ This app is a demo of using a Golang powered backend:
 - JWT authentication
 
 ### API list
-- /api/movie/get
-- /api/movie/get_all
-- /api/movie/get_random
 
-- /api/movie/admin
-- /api/movie/update
+| Method | URI                    | Note                                                  |
+|--------|------------------------|-------------------------------------------------------|
+| GET    | /api/movie/get_all     | get list movie        |
+| GET    | /api/movie/get         | get detail movie     |
+| GET    | /api/movie/get_random  | get list random movie        |
+| GET    | /api/movie/admin       | authentication to admin page     |
+| POST   | /api/movie/update      | authentication to update detail movie        |
