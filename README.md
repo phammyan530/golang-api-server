@@ -16,10 +16,10 @@ This app is a demo of using a Golang powered backend:
 
 ### API list
 
-| Method | URI                    | Note                                                  |
-|--------|------------------------|-------------------------------------------------------|
-| GET    | /api/movie/get_all     | get list movie        |
-| GET    | /api/movie/get         | get detail movie     |
-| GET    | /api/movie/get_random  | get list random movie        |
-| GET    | /api/movie/admin       | authentication to admin page     |
-| POST   | /api/movie/update      | authentication to update detail movie        |
+| Method | URI                     | Note                                  |
+|--------|-------------------------|---------------------------------------|
+| GET    | /api/movie/get_all{page}| get list movie with pagination        |
+| GET    | /api/movie/get{id}      | get detail movie by Movie ID          |
+| GET    | /api/movie/get_random   | get list random movie                 |
+| GET    | /api/admin/list_movie   | authentication to admin page          |
+| POST   | /api/admin/update_movie | authentication to update detail movie |
