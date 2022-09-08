@@ -1,4 +1,4 @@
-### Microservice demo project using Python, Golang and PHP
+### Demo microservice project using Python, Golang and PHP
 <img src="https://github.com/phammyan530/golang-api-server/blob/main/image/microservice-demo-project.jpg">
 
 #### This app is a demo of using: 
